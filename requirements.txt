@@ -1,4 +1,4 @@
 git+https://github.com/JustAnyones/fbchat@ebae16e64c664bf0a777694699db3f5e686e3ddd#egg=fbchat
-Pillow==8.1.0
+Pillow==9.0.1
 requests==2.25.1
 selenium==3.141.0
