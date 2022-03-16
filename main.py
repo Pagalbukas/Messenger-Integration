@@ -61,7 +61,7 @@ schedule_date = current_date.strftime("%Y-%m-%d")
 print("Start headless browser")
 driver = webdriver.PhantomJS(PHANTOMJS_PATH)
 driver.set_window_size(1980, 1080)
-driver.get('https://{PAGALBUKAS_BASE_URL}')
+driver.get(f'https://{PAGALBUKAS_BASE_URL}/')
 
 # pls dont hack
 res = requests.post(f"https://{PAGALBUKAS_BASE_URL}/api/user/login", {
